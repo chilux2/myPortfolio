@@ -5,7 +5,7 @@ body{
 header{
     border: solid 1px #2e648b;
     background-color: #2e648b;
-    border-bottom: solid 1px goldenrod;
+    
 
 }
 
@@ -13,3 +13,20 @@ header h1{
     color: goldenrod;
     text-align: center;
 }
+
+nav{
+    border: solid 1px goldenrod;
+    background-color: #2e648b;
+    text-align: center;
+    
+
+}
+
+nav li{
+    display: inline-flex;
+    justify-content: space-between;
+    padding-right: 130px;
+    
+    
+}
+
