@@ -46,6 +46,8 @@ nav li{
     
 }
 
+/*bio section*/
+
 .Bio h1 {
    
     text-align: center;
@@ -63,8 +65,13 @@ p{
     
 }
 
+
+
+
+
 .Time{
     text-align: center;
+    
 }
 
 .Time h1{
@@ -89,4 +96,47 @@ p{
     font-size: 32px;
     font-family: Georgia;
     color: goldenrod;
+}
+
+.messages{
+    width: 600px;
+    height: 600px;
+    
+}
+
+#openM{
+    width: 200px;
+    width: 200px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: goldenrod;
+    margin: 0 auto;
+    margin-top: 85px;
+    cursor: pointer;
+    font-family:  'Times New Roman';
+}
+
+#mixedM{
+    display: none;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+#closeM{
+    
+    width: 200px;
+    width: 200px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: goldenrod;
+    margin: 0 auto;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family:  'Times New Roman';
+    display: none;
 }
