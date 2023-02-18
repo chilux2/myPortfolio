@@ -18,6 +18,8 @@ nav{
     border: solid 1px goldenrod;
     background-color: #2e648b;
     text-align: center;
+    width: 100%;
+    
     
 
 }
@@ -25,18 +27,66 @@ nav{
 nav li{
     display: inline-flex;
     justify-content: space-between;
-    padding-right: 130px;
+    padding-right: 100px;
+    font-size: 20px;
+    text-decoration: none;
+   
     
     
 }
 
-.container{
-    border: solid goldenrod;
-    width: 600px;
-    height: 600px;
+.container {
+    display:flex;
+    justify-content:center;
+
+}
+.container img{
+    width: 400px;
+    height: 400px;
+    
 }
 
-img{
-    height: 600px;
-    width: 600px;
+.Bio h1 {
+   
+    text-align: center;
+    font-size: 28px;
+    font-family: helvetica;
+    color: goldenrod;
+    
+}
+
+p{
+    text-align: center;
+    font-size: 24px;
+    color: goldenrod;
+    line-height: 0.5;
+    
+}
+
+.Time{
+    text-align: center;
+}
+
+.Time h1{
+    font-size: 32px;
+    color: goldenrod;
+}
+
+.Time span{
+    color:goldenrod;
+}
+
+.Time li {
+    display: inline-flex;
+    justify-content: space-around;
+    font-size: 36px;
+    color: bisque;
+}
+
+
+.Projects{
+    text-align: center;
+    font-size: 32px;
+    font-family: Georgia;
+    color: goldenrod;
 }
