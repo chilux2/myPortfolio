@@ -1,3 +1,4 @@
+//mixed messages section//
 let view = document.getElementById('openM');
 let close = document.getElementById('closeM');
 let mixedM = document.getElementById('mixedM');
@@ -14,4 +15,7 @@ let hide = function(){
 
 view.addEventListener('click', open);
 close.addEventListener('click', hide);
+
+
+
 

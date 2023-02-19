@@ -96,11 +96,18 @@ p{
     font-size: 32px;
     font-family: Georgia;
     color: goldenrod;
+   
 }
 
 .messages{
     width: 600px;
     height: 600px;
+    
+}
+
+.messages img{
+    width: 400px;
+    height: 400px;
     
 }
 
@@ -133,6 +140,49 @@ p{
     border:none;
     border-radius: 5px;
     display: inline-block;
+    background-color: goldenrod;
+    margin: 0 auto;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family:  'Times New Roman';
+    display: none;
+}
+
+.weFix{
+    width: 600px;
+    height: 600px;
+    
+}
+
+#openW{
+    width: 200px;
+    width: 200px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: goldenrod;
+    margin: 0 auto;
+    margin-top: 85px;
+    cursor: pointer;
+    font-family:  'Times New Roman';
+}
+
+#weFixM{
+    display: none;
+    width: 600px;
+    height: 400px;
+    margin: 0 auto;
+}
+
+
+#closeW{
+    width: 200px;
+    width: 200px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    display: inline;
     background-color: goldenrod;
     margin: 0 auto;
     margin-top: 25px;
