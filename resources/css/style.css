@@ -26,8 +26,8 @@ nav{
 
 nav li{
     display: inline-flex;
-    justify-content: space-between;
-    padding-right: 100px;
+    justify-content: space-around;
+    padding-right: 50px;
     font-size: 20px;
     text-decoration: none;
    
@@ -57,11 +57,35 @@ nav li{
     
 }
 
+.Bio{
+
+width: 105%;
+z-index: -1;
+
+}
+
+.profile{
+    border: solid 0.5px goldenrod;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.profile img{
+  
+    width: 800px;
+    height: 600px;
+    display: flex;
+    justify-content: flex-start;
+    
+   
+}
+
 p{
     text-align: center;
     font-size: 24px;
     color: goldenrod;
-    line-height: 0.5;
+    /*line-height: 0.5;*/
     
 }
 
@@ -71,6 +95,8 @@ p{
 
 .Time{
     text-align: center;
+    border: solid 0.5px goldenrod;
+    width: 100%;
     
 }
 
@@ -91,7 +117,9 @@ p{
 }
 
 
-.Projects{
+.Projects {
+    border: solid 0.5px goldenrod;
+    width: 100%;
     text-align: center;
     font-size: 32px;
     font-family: Georgia;
@@ -102,6 +130,8 @@ p{
 .messages{
     width: 600px;
     height: 600px;
+    text-align: center;
+    color: bisque;
     
 }
 
@@ -119,7 +149,7 @@ p{
     border-radius: 5px;
     display: inline-block;
     background-color: goldenrod;
-    margin: 0 auto;
+    margin: 10 auto;
     margin-top: 85px;
     cursor: pointer;
     font-family:  'Times New Roman';
@@ -141,7 +171,7 @@ p{
     border-radius: 5px;
     display: inline-block;
     background-color: goldenrod;
-    margin: 0 auto;
+    margin: 10 auto;
     margin-top: 25px;
     cursor: pointer;
     font-family:  'Times New Roman';
@@ -151,6 +181,8 @@ p{
 .weFix{
     width: 600px;
     height: 600px;
+    text-align: center;
+    color: bisque;
     
 }
 
@@ -162,10 +194,11 @@ p{
     border-radius: 5px;
     display: inline-block;
     background-color: goldenrod;
-    margin: 0 auto;
+    margin: 10 auto;
     margin-top: 85px;
     cursor: pointer;
     font-family:  'Times New Roman';
+    
 }
 
 #weFixM{
@@ -184,9 +217,96 @@ p{
     border-radius: 5px;
     display: inline;
     background-color: goldenrod;
-    margin: 0 auto;
+    margin: 10 auto;
     margin-top: 25px;
     cursor: pointer;
     font-family:  'Times New Roman';
     display: none;
+}
+
+.vids{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+   
+   
+}
+
+.vids img{
+    width: 400px;
+    height: 400px;
+}
+
+
+.karate{
+    width: 600px;
+    height: 600px;
+    text-align: center;
+    color: bisque;
+    
+}
+
+#openK{
+    width: 200px;
+    width: 200px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    display: inline-block;
+    background-color: goldenrod;
+    margin: 10 auto;
+    margin-top: 85px;
+    cursor: pointer;
+    font-family:  'Times New Roman';
+    
+    
+}
+
+#karateM{
+    display: none;
+    width: 600px;
+    height: 400px;
+    margin-right: 250px;
+}
+
+
+#closeK{
+    width: 200px;
+    width: 200px;
+    font-size: 18px;
+    border:none;
+    border-radius: 5px;
+    display: inline;
+    background-color: goldenrod;
+    margin: 10 auto;
+    margin-top: 25px;
+    cursor: pointer;
+    font-family:  'Times New Roman';
+    display: none;
+}
+
+.Skills{
+    text-align: center;
+    font-size: 32px;
+    font-family: Georgia;
+    color: goldenrod;
+   
+   
+}
+
+.Skills img{
+    display: inline-block;
+    margin-right: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+
+.copyright{
+    text-align: center;
+    font-size: 18px;
+    font-family: Georgia;
+    color: goldenrod;
+   
+   
 }
