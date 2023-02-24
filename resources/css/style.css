@@ -15,10 +15,12 @@ header h1{
 }
 
 nav{
+
     border: solid 1px goldenrod;
     background-color: #2e648b;
     text-align: center;
     width: 100%;
+   
     
     
 
@@ -59,8 +61,10 @@ nav li{
 
 .Bio{
 
-width: 105%;
-z-index: -1;
+width: 100%;
+
+
+
 
 }
 
@@ -68,16 +72,14 @@ z-index: -1;
     border: solid 0.5px goldenrod;
     width: 100%;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .profile img{
   
-    width: 800px;
-    height: 600px;
-    display: flex;
-    justify-content: flex-start;
-    
+    width: 500px;
+    height: 500px;
    
 }
 
@@ -142,7 +144,7 @@ p{
 }
 
 #openM{
-    width: 200px;
+    
     width: 200px;
     font-size: 18px;
     border:none;
@@ -164,15 +166,15 @@ p{
 
 #closeM{
     
-    width: 200px;
-    width: 200px;
+    
+    min-width: 200px;
     font-size: 18px;
     border:none;
     border-radius: 5px;
     display: inline-block;
     background-color: goldenrod;
-    margin: 10 auto;
-    margin-top: 25px;
+    margin: 0 auto;
+    margin-top: 10px;
     cursor: pointer;
     font-family:  'Times New Roman';
     display: none;
@@ -187,8 +189,7 @@ p{
 }
 
 #openW{
-    width: 200px;
-    width: 200px;
+    min-width: 200px;
     font-size: 18px;
     border:none;
     border-radius: 5px;
@@ -210,15 +211,15 @@ p{
 
 
 #closeW{
-    width: 200px;
+    
     width: 200px;
     font-size: 18px;
     border:none;
     border-radius: 5px;
     display: inline;
     background-color: goldenrod;
-    margin: 10 auto;
-    margin-top: 25px;
+    margin: 0 auto;
+    margin-top: 50px;
     cursor: pointer;
     font-family:  'Times New Roman';
     display: none;
@@ -226,8 +227,9 @@ p{
 
 .vids{
     display: flex;
-    justify-content: center;
-    align-content: center;
+    
+    
+    
    
    
 }
@@ -247,7 +249,7 @@ p{
 }
 
 #openK{
-    width: 200px;
+    
     width: 200px;
     font-size: 18px;
     border:none;
@@ -271,14 +273,14 @@ p{
 
 
 #closeK{
-    width: 200px;
+    
     width: 200px;
     font-size: 18px;
     border:none;
     border-radius: 5px;
     display: inline;
     background-color: goldenrod;
-    margin: 10 auto;
+    margin: 0 auto;
     margin-top: 25px;
     cursor: pointer;
     font-family:  'Times New Roman';
@@ -309,4 +311,133 @@ p{
     color: goldenrod;
    
    
+}
+
+.details{
+    border: solid 1px goldenrod;
+    width: 100%;
+    text-align: center;
+    font-family: Georgia;
+    font-size: 18px;
+    color: rgb(182, 173, 173);
+}
+
+.details img{
+    width: 150px;
+    height: 150px;
+}
+
+form{
+    text-align: center;
+    color: rgb(182, 173, 173);
+}
+
+.Pro{
+    font-family: Arial;
+    font-size: 18px;
+    color: bisque;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-evenly;
+    
+}
+
+
+.WeFixP img{
+    width: 300px;
+    height: 300px;
+}
+
+.KarateP img{
+    width: 300px;
+    height: 300px;
+    
+}
+
+.Generator{
+    border: 2px solid goldenrod;
+    color: goldenrod;
+    position: relative;
+    margin-left: 300px;
+    width: 80%;
+    height: 600px;
+    display:flex;
+    justify-content:center;
+   
+    
+}
+
+#buttonContainer{
+    position: relative;
+    top: 100px;
+    right: 180px;
+    
+}
+
+#heroButton{
+    padding: 10px;
+    font-size: 12px;
+    background-color: goldenrod;
+    color: whitesmoke;
+    border: 1px solid goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#hero{
+    color: black;
+    font-size: 24px;
+    text-align: center;
+    
+}
+
+
+@media screen and (max-width: 390px) {
+    .Bio p{
+       font-size: 8px;
+        
+    }
+
+    .profile img{
+        width: 300px;
+        height: 300px;
+    }
+
+    .Projects h1{
+        font-size: 16px;
+    }
+
+  
+}
+
+@media  screen and (min-width: 400px) {
+    .vids{
+      
+        display:flex;
+        justify-content:space-between;
+        flex-wrap: wrap;
+    }
+
+
+
+}
+
+@media screen and (min-width:480px) {
+    .Generator{
+       top:100px;
+        width: 100%;
+        height: 300px;
+        right:305px;
+        
+    }
+
+    form #Name, #Phonenumber, #Email{
+        font-size: 22px;
+        width: 500px;
+
+    }
+
+    form{
+        font-size: 36px;
+    }
 }
