@@ -13,7 +13,6 @@ Key points
 4. I managed to make it interactive using javascript , by having people click on buttons and video examples of my passed projects being shown 
 5. I managed to make is accessible and viewable on any device, this was done by me using the developer tools and testing to make sure i got the right measurements 
 
-======================================================================================================================================================
 
 Technology Used  
 ================
