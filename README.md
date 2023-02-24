@@ -5,7 +5,7 @@ it was the first project i got to use HTML5 , CSS and Java all together and I'm 
 thanks in advance 
 
 
-Key points 
+Key Points 
 ================
 1. I managed to use Git to track my projects 
 2. I built an about me page , project page , and a page for people to contact me 
